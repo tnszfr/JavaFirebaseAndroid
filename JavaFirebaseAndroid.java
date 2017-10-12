@@ -9,7 +9,7 @@ import java.net.URL;
 public class JavaFirebaseAndroid {
     public static void pushFCMNotification(String userDeviceIdKey, String title, String body) throws Exception{
 
-        String authKey = "AUTH_KEY";   // You FCM AUTH key
+        String authKey = "API_KEY";   // You FCM AUTH key
         String FMCurl = "https://fcm.googleapis.com/fcm/send";
 
         URL url = new URL(FMCurl);
